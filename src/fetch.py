@@ -4,7 +4,7 @@ import requests
 
 def update_data():
     """
-    Downloads the data. The data get updated daily.
+    Downloads the data and writes them to a new csv file.
     :return: None
     """
     def download_data(url, filename):
